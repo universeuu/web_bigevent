@@ -1,0 +1,61 @@
+html,
+body{
+    margin: 0;
+    padding: 0;
+
+    height: 100%;
+    width: 100%;
+    /* 不平铺 剧中 */
+    background: url('/31-大事件后台/assets/images/login_bg.jpg') no-repeat center;
+    /* 填充模式 */
+    background-size: cover;
+
+}
+
+
+/* 登录注册 */
+.loginBox{
+    /* 位于正中 */
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+
+    width: 400px;
+    height: 310px;
+    background-color: #fff;
+}
+
+/* 标题区 */
+ .title-box{
+    height: 60px;
+    background: url('/31-大事件后台/assets/images/login_title.png') no-repeat center ;
+}
+
+/* 登录div */
+/* 登录表单区 */
+ .layui-form{
+    padding: 0 30px;
+}
+.links{
+    float: right;
+
+    font-size: 12px;
+}
+.layui-form-item{
+    position: relative;
+}
+.layui-form-item i{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+.layui-input{
+    padding-left: 32px;
+}
+
+/* 注册div */
+.reg-box{
+    /* 默认不显示 */
+    display: none;
+}
